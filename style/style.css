@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
+:root {
+    --font-bold:'Changa One';
+    --font-normal:'arial',sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 255px;
+    background-color: black;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-family: var(--font-bold);
+    font-size: 5em;
+    padding-top:40px ;
+}
+
+#sub-title {
+    color: white;
+    text-align: center;
+    font: normal 1.1em var(--font-normal);
+    padding-top: 20px;
+}
+
+#link {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#link:hover {
+    text-decoration-line: underline;
+}
+
+
+
+
+
+
+footer {
+    height: 30px;
+    background-color: rgb(22, 22, 21);
+}
+
+#site-maker {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font: normal 500 1.1em var(--font-normal);
+}
+
+#maker {
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
+
+#maker:hover {
+    text-decoration-line:underline ;
+}
